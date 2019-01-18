@@ -1,22 +1,20 @@
 #Larticles Laravel/Vue App
-Laravel 5.5 API that uses the API resources with a Vue.js frontend
+```Laravel 5.5 API that uses the API resources with a Vue.js frontend```
 ##Quick Start
-# Install Dependencies
-composer install
+### Install Dependencies
+```composer install```
 
-# Run Migrations
-php artisan migrate
+### Run Migrations
+```php artisan migrate```
 
-# Import Articles
-php artisan db:seed
+### Import Articles
+```php artisan db:seed```
 
-# Add virtual host if using Apache
+### If you get an error about an encryption key
+```php artisan key:generate```
 
-# If you get an error about an encryption key
-php artisan key:generate
-
-# Install JS Dependencies
+### Install JS Dependencies
 npm install
 
-# Watch Files
+### Watch Files
 npm run watch
