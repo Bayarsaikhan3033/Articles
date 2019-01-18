@@ -1,6 +1,8 @@
-#Articles Laravel/Vue App
-```Laravel 5.5 API that uses the API resources with a Vue.js frontend```
-##Quick Start
+# Articles Laravel/Vue App
+
+## Laravel 5.5 API that uses the API resources with a Vue.js frontend
+
+
 ### Install Dependencies
 ```composer install```
 
@@ -10,6 +12,6 @@
 
 ```php artisan key:generate```
 
-npm install
+```npm install```
 
-npm run watch
+```npm run watch```
